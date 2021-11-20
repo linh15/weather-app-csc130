@@ -1,0 +1,28 @@
+.content {
+  width: 400px;
+  height: 300px;
+  border: 2px solid black;
+  text-align: center;
+  position: relative;
+}
+
+.content div {
+  font-size: 3em;
+  background-color: white;
+  width: 100%;
+}
+
+#city {
+  border-bottom: 2px solid black;
+}
+
+#temperature {
+  border-top: 2px solid black;
+  position: absolute;
+  bottom: 0;
+}
+
+p {
+  font-size: 2em;
+  margin-top: 0%;
+}
